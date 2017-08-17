@@ -57,7 +57,7 @@ if ($html = file_get_html('')) {
                     $positions = substr($position, 0, strpos($position, ","));
                     /*foreach($positions_scrape as $position) {
                         if (strpos($position->innertext, 'atholog') !== false) {
-                            $positions .= '<li class="biosketch">'.trim($position->innertext).'</li>';
+                            $positions .= '<li class="sitename">'.trim($position->innertext).'</li>';
                         }
                     }*/
                     
