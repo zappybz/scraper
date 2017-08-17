@@ -41,11 +41,11 @@ if ($html = file_get_html('')) {
                     $positions = substr($position, 0, strpos($position, ","));
                     /*foreach($positions_scrape as $position) {
                         if (strpos($position->innertext, 'atholog') !== false) {
-                            $positions .= '<li class="nyulangone">'.trim($position->innertext).'</li>';
+                            $positions .= '<li class="sitename">'.trim($position->innertext).'</li>';
                         }
                     }*/
                     //$image = $doctor_page->find('meta[property="twitter:image:src"]', 0)->value;
-                    //$image = 'http://nyulangone.org'.str_replace('-square', '-thumb', $image);
+                    //$image = 'http://sites.org'.str_replace('-square', '-thumb', $image);
                     //if (getimagesize($image) === false) $image = '';
                     
                 } 
